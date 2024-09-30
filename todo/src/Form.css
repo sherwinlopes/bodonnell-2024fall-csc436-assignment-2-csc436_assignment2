@@ -1,0 +1,13 @@
+Form{
+    padding: 20px;
+    background-color: #39fe8b;
+    border-radius: 10px;
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+}
