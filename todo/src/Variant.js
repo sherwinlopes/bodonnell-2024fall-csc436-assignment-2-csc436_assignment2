@@ -1,8 +1,9 @@
 const getVariant = (dueDate) => {
+
     const date = new Date();
     const duedate = new Date(dueDate);
 
-    const new_dueDate = duedate - date;
+    const new_dueDate = Math.ceil((duedate - date)/(1000*60*60*24));
 
     if (new_dueDate > 7) {
         return "primary";

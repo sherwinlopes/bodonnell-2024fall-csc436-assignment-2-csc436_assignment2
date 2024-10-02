@@ -1,11 +1,9 @@
-import todoitems from './todoItems';
 import './ToDoList.css';
 import Form from './Form.js';
-import ListGrp from './ListGrp.js';
+import ListGrp from './ListTab.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 
 function ToDoList() {
   return (
@@ -19,7 +17,7 @@ function ToDoList() {
         <Col md={4}>
           <Form/>
         </Col>
-        <Col md={4}>
+        <Col md={8}>
           <ListGrp/>
         </Col>
       </Row>
