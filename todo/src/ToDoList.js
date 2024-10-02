@@ -1,11 +1,13 @@
 import './ToDoList.css';
-import Form from './Form.js';
-import ListGrp from './ListTab.js';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function ToDoList() {
+import Form from './Form.js';
+import ListGrp from './ListTab.js';
+
+function TodoList() {
   return (
     <Container>
       <Row>
@@ -25,4 +27,4 @@ function ToDoList() {
   );
 }
 
-export default ToDoList;
+export default TodoList;
